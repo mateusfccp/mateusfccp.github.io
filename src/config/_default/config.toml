@@ -1,0 +1,4 @@
+baseURL = "https://mateusfccp.github.io/"
+languageCode = "en-us"
+title = "Mateus Felipe"
+publishDir = "../"
