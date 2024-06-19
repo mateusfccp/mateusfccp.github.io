@@ -1,0 +1,25 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Mateus Felipe"
+
+[params]
+dateFormat = "2 January 2006"
+# The sections that should be displayed in the recent articles list. If not provided the section with the greatest number of articles is used.
+# mainSections = ["section1", "section2"]
+description = "Software engineer."
+
+[params.author]
+name = "Mateus Felipe C. C. Pinto"
+image = "images/author.jpg"
+headline = "Software engineer · Flutter specialist"
+bio = "Programmer since 2006, I've been exploring many kinds of technologies and languages. Currently, I work mainly with Flutter, in which I've specialized, but I can adapt to anything without much hassle. I'm also interested in compilers, PLT, game development and theology."
+links = [
+	{ email = "mailto:mateusfcc@gmail.com" },
+	{ github = "https://github.com/mateusfccp" },
+	{ telegram = "https://t.me/mateusfccp" },
+	{ x-twitter = "https://x.com/mateusfccp" },
+	# { stack-overflow = "https://stackoverflow.com/users/userid/username" },	
+]

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mateus Felipe</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Mateus Felipe</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/posts/about-me/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/about-me/</guid>
+      <description>My journey as a programmer began back in 2006 when I was 9 years old.</description>
+    </item>
+    <item>
+      <title>Test Post</title>
+      <link>http://localhost:1313/posts/test-post/</link>
+      <pubDate>Sat, 15 Jun 2024 18:15:26 -0300</pubDate>
+      <guid>http://localhost:1313/posts/test-post/</guid>
+      <description>Lorem ipsum #Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+  </channel>
+</rss>
