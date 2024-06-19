@@ -1,7 +1,6 @@
 +++
 title = 'About me'
 date = 2024-06-17
-draft = true
 showAuthor = false
 showBreadcrumbs = false
 showComments = false
