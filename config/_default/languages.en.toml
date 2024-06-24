@@ -13,7 +13,7 @@ description = "Software engineer."
 
 [params.author]
 name = "Mateus Felipe C. C. Pinto"
-image = "images/author.jpg"
+image = "images/author.webp"
 headline = "Software engineer · Flutter specialist"
 bio = "Programmer since 2006, I've been exploring many kinds of technologies and languages. Currently, I work mainly with Flutter, in which I've specialized, but I can adapt to anything without much hassle. I'm also interested in compilers, PLT, game development and theology."
 links = [
