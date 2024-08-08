@@ -308,13 +308,13 @@ issues. For instance:
 type Option(T) = Some(U value) + None
 ```
 
-This code is invalid, because the type parameter was not used, and `U` which
-does not exist in this context, is used instead. This code will generate a
-Dart program that is syntatically correct, but will fail to compile.
+This code is invalid, because the declared type parameter `T` was not used,
+and `U`, which does not exist in this context, is used instead. This code will
+generate a Dart program that is syntatically correct, but will fail to compile.
 
 This problem is not too hard when you think in the language isolated, but as my
 language is supposed to interoperate with Dart, I have to consider which
-identifiers where defined or not.
+identifiers were defined or not.
 
 ```
 type Id = Id(int idNumber)
