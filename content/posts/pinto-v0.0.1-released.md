@@ -84,7 +84,7 @@ I introduced some sugared syntax for common type identifiers:
 - `[T]` means `List(T)`, which compiles to `List<T>`;
 - `{T}` means `Set(T)`, which compiles to `Set<T>`;
 - `{K: V}` means `Map(K, V)`, which compiles to `Map<K, V>`;
-- `T?` means `Optional(T)`, which compiles to `T?`[^2].
+- `T?` means `Option(T)`, which compiles to `T?`[^2].
 
 
 [^2]: Currently, there's no distinct internal representation for optional types,
@@ -441,7 +441,7 @@ type system will streamline this by having a single top type, `⊤`[^3].
 flowchart BT
   Top[⊤]
   T --> Top
-  Opt["Optional(T)"] --> Top
+  Opt["Option(T)"] --> Top
   Bottom[⊥] --> T
   Bottom --> Opt
 {{< /mermaid >}}
