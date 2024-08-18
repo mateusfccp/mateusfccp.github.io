@@ -20,6 +20,10 @@ showTableOfContents = true
 
 The pint° (/pĩntʊ/) programming language.
 
+[{{< img style="display: inline" src="https://img.shields.io/github/license/mateusfccp/pinto" >}}](https://github.com/mateusfccp/pinto/blob/master/LICENSE)
+[{{< img style="display: inline" src="https://img.shields.io/pub/v/pinto" >}}](https://pub.dev/packages/pinto)
+[{{< img style="display: inline" src="https://img.shields.io/github/stars/mateusfccp/pinto" >}}](https://github.com/mateusfccp/pinto)
+
 {{< alert >}}
 
 The pinto° programming language is still in very early development stage, and is
