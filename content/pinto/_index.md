@@ -13,7 +13,7 @@ showTableOfContents = true
 +++
 
 {{< img
-    src="logo.png"
+    src="images/logo.png"
 	width="300px"
 	height="300px"
 	alt="pint° logo" >}}
