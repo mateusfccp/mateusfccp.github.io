@@ -1,8 +1,8 @@
 +++
 title = 'The pint° programming language'
 date = 2024-08-07T21:25:00-03:00
-lastmod = 2024-08-13T12:00:00-03:00
-tags = ['Language', 'Flutter', 'Dart', 'pint°']
+lastmod = 2024-08-18T09:15:00-03:00
+tags = ['Language', 'Flutter', 'Dart', 'pint°', 'Announcement']
 +++
 
 I started making a toy language that's supposed to compile to Dart and have
@@ -11,7 +11,7 @@ interoperability with it.
 The main objectives of the language are:
 
 - Have seamless[^1] interoperability with stable Dart;
-- Generate a legible Dart that can be used as is;
+- Generate legible Dart code that can be used as is;
 - Be terser and more expressive than Dart;
 - Provide a powerful macro system with great ergonomy;
 - Try to solve the greatest pain points when using Dart, especially with

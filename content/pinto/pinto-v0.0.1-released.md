@@ -1,7 +1,7 @@
 +++
 title = 'pint° v0.0.1 released'
 date = 2024-08-13T16:50:00-03:00
-tags = ['Language', 'Flutter', 'Dart', 'pint°']
+tags = ['Language', 'Flutter', 'Dart', 'pint°', 'Announcement', 'Release']
 +++
 
 In the [last post]({{< ref "the-pinto-programming-language" >}}) I said I was

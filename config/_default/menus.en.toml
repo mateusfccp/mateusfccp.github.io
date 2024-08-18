@@ -16,14 +16,9 @@ pageRef = "about"
 weight = 1
 
 [[main]]
-name = "Blog"
-pageRef = "posts"
+name = "pint°"
+pageRef = "pinto"
 weight = 10
-
-[[main]]
-name = "Categories"
-pageRef = "categories"
-weight = 20
 
 [[main]]
 name = "Tags"
