@@ -60,8 +60,9 @@ Install the `pinto` executable with `pub`.
 dart pub global activate pinto
 ```
 
-The `pinto_server` executable will be also available (in the future) for a LSP
-implementation.
+The `pinto_server` executable will be also available for a LSP implementation.
+The current LSP implementation is only supported by the
+[VSCode extenstion](https://marketplace.visualstudio.com/items?itemName=mateusfccp.pinto).
 
 ### Compiling with the `pinto` executable
 

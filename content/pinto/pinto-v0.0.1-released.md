@@ -1,6 +1,7 @@
 +++
 title = 'pint° v0.0.1 released'
 date = 2024-08-13T16:50:00-03:00
+lastMod = 2024-08-18T21:30:00-03:00
 tags = ['Language', 'Flutter', 'Dart', 'pint°', 'Announcement', 'Release']
 +++
 
@@ -12,12 +13,12 @@ limitations.
 The repository can be seen [here](https://github.com/mateusfccp/pinto), and the
 `pub.dev` package [here](https://pub.dev/packages/pinto).
 
-# Changes on this release
+## Changes on this release
 
 Not exactly changes, because it's the first release, but here are some
 differences from what we had the last time I posted about this language.
 
-## Scope
+### Scope
 
 For this first zero-version, the scope is basically what was described in the
 last post. However, as I implemented a basic type resolution step, I had to
@@ -45,7 +46,7 @@ an identifier, only the `List` part is.
 I had to tweak the grammar a lot and update the parser accordingly to
 accommodate for these cases and others.
 
-## Type resolution
+### Type resolution
 
 I implemented a simple type resolver for pint°, which will check for common
 issues when defining a type. For instance:
@@ -66,7 +67,7 @@ issues when defining a type. For instance:
 	  Another alternative would be to apply it partially and return a
 	  `Type → Type`.
 
-## Commentaries
+### Commentaries
 
 Commentaries are now a thing. This is not set in stone, but by now I have gone
 to the easy way of C-like commentaries:
@@ -75,7 +76,7 @@ to the easy way of C-like commentaries:
 - `/*` and `*/` respectively open and close a multiline commentary
   (nesting is supported)
 
-## Sweet types
+### Sweet types
 
 I introduced some sugared syntax for common type identifiers:
 
@@ -92,9 +93,9 @@ I introduced some sugared syntax for common type identifiers:
 	  introduce a proper optional type into the language, which will still be
 	  compiled into a nullable type in Dart.
 
-### Limitations
+#### Limitations
 
-#### Records
+##### Records
 
 Currently, there's no way to express complex records in Dart. As Dart records
 not representable with regular type identifier syntax, this is a hard limitation
@@ -111,7 +112,7 @@ I didn't want to touch records yet for two reasons:
 - I'm thinking of having records as first-class types in pint°, so they will
   probably work differently from how we use it on Dart.
   
-#### Functions
+##### Functions
 
 There's also no way to describe function types in pint°. As currently pint° does
 not have support for function definitions, this is not a big problem. Type
@@ -120,7 +121,7 @@ definitions _can_ have functions as parameters, but I wouldn't recommend it.
 This can be worked around in a similar way to record, by using the `Function`
 type as a catching-all type.
 
-## Imports
+### Imports
 
 I introduced an import syntax. I don't know if it will be final, but it's
 currently as follows:
@@ -135,9 +136,9 @@ currently as follows:
 All pint° programs come with `dart:core` implicitly imported, so basic symbols
 like `int`, `String`, `List` etc are instantly available in all pint° programs.
 
-### Limitations
+#### Limitations
 
-#### Relative imports
+##### Relative imports
 
 Relative imports are not a thing. Some people may like it, as many use only
 absolute imports in Dart. I'm still deciding whether we should or not support
@@ -148,24 +149,24 @@ you are working in a file `<project>/lib/src/feature/implementation.dart` and
 you want to import `<project/lib/src/feature/helper.dart`, you can import it
 with `import project/src/feature/helper`.
 
-#### Redundant imports
+##### Redundant imports
 
 Importing the same package many times is an undefined behavior. I have
 no idea if this breaks the resolver or will simply do nothing. Ideally, we want
 it to be at least a warning to do this and be sure that doing this won't break
 anything.
 
-#### Modifiers
+##### Modifiers
 
 Modifiers like `shows`, `hides` and `as` are not available and there's no way to
 workaround it.
 
-## Other minor changes
+### Other minor changes
 
 - Now, type definitions generated code have a `toString` override that contains
   the values of all the fields.
 
-# How to try it
+## How to try it
 
 The package is published in the `pub.dev`. It contains all the code for the
 lexer, parser, resolver, and compiler.
@@ -392,9 +393,9 @@ any stability soon, but we can have some fun trying this language.
 
 Please, if you find any bugs, feel free to open an issue or a pull request.
 
-# Some future ideas
+## Some future ideas
 
-## An overview of the type system
+### An overview of the type system
 
 I didn't think too much about the type system yet, but there's one problem in
 Dart that I want to avoid: Dart's type system has three
@@ -498,7 +499,7 @@ considerations. Here is more-or-less a table of equivalencies.
 	  thing in the future, as I may want to introduce a kind of dependent type
 	  for dealing with default values on records.
 	  
-## A word on records
+### A word on records
 
 I have the idea to remove the wall between function parameters and records in
 pint°. By doing so, every function will have a single parameter, and functions
@@ -532,7 +533,7 @@ This is just a strawman for the idea proposed here. If we have both
 then our type system is sound, and by having the default value encoded into the
 type allows us to compile it to an equivalent Dart code.
 
-# What's next?
+## What's next?
 
 I actually don't know what I'm going to do next. Some things come to my mind:
 
