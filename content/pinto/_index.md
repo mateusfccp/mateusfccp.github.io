@@ -26,7 +26,7 @@ The pint° (/pĩntʊ/) programming language.
 
 {{< alert >}}
 
-The pinto° programming language is still in very early development stage, and is
+The pint° programming language is still in very early development stage, and is
 not recommended for use in production software. Use at your own risk.
 
 {{< /alert >}}
@@ -43,8 +43,6 @@ It has the following objectives:
 
 Currently, the language is in very early-development, and only supports a single
 feature, which is data clases generation.
-
-<!-- more -->
 
 ## How to use pint°
 
@@ -138,5 +136,26 @@ type Complex(T) = Complex(
 
 ---
 
+## Community
+
+We now have a small community in Discord. You can join our Discord server to
+learn more and contribute by clicking button below!
+
+{{< button href="https://discord.com/invite/wJ3gGYnv" target="_blank" >}}
+{{< icon "discord" >}}
+Join our Discord server!
+{{< /button >}}
+
+<p>
+<iframe src="https://discord.com/widget?id=1286023882515677236&theme=dark"
+        width="350"
+		height="500"
+		allowtransparency="true"
+		frameborder="0"
+		sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+</iframe>
+</p>
+
+---
 
 # Latest news
