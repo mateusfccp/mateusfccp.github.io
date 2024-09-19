@@ -1,6 +1,6 @@
 +++
 title = 'Discord server announcement'
-date = 2024-09-19T21:30:00-03:00
+date = 2024-09-19T03:30:00-03:00
 tags = ['Language', 'Flutter', 'Dart', 'pint°', 'Announcement']
 +++
 
