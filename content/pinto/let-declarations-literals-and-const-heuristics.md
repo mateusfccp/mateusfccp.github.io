@@ -40,7 +40,7 @@ let mySlightlyComplexComputation =
 I introduced three types of literals to pint°:
 
 * Unit literals: `()`;
-* Boolean litewrals: `true` and `false`;
+* Boolean literals: `true` and `false`;
 * Basic string literals: `"something"`.
 
 Note that current string literals doesn't support nothing beside the most basic
