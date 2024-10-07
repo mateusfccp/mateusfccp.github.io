@@ -5,6 +5,7 @@ groupByYear = false
 date = 2024-01-01
 
 [cascade]
+invertPagination = true
 sharingLinks = false
 showAuthor = false
 showComments = false

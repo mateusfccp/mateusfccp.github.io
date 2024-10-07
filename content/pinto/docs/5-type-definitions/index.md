@@ -1,6 +1,6 @@
 +++
 title = 'Type definitions'
-date = 2024-10-07T19:00:00-03:00
+date = 2024-10-03
 slug = 'type-definitions'
 description = 'Defining product types and sum types.'
 summary = 'Defining product types and sum types.'

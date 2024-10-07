@@ -35,9 +35,9 @@ The pint° programming language is a language that compiles to Dart.
 
 It has the following objectives:
 
-- Have seamless interoperability with stable Dart;
+- Have seamless interoperability with Dart;
 - Consider Flutter as first-class;
-- Generate legible Dart code that can be used as is
+- Generate reasonably readable and efficient Dart code;
 - Be terser and more expressive than Dart;
 - Provide a powerful macro system with great ergonomy.
 

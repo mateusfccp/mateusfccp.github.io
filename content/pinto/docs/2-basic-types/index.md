@@ -1,6 +1,6 @@
 +++
 title = 'Basic types'
-date = 2024-10-07T17:30:00-03:00
+date = 2024-10-06
 slug = 'basic-types'
 description = 'Learn what types pint° provides out-of-the-box.'
 summary = 'Learn what types pint° provides out-of-the-box.'

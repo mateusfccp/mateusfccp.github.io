@@ -1,6 +1,6 @@
 +++
 title = 'Let declarations'
-date = 2024-10-07T18:30:00-03:00
+date = 2024-10-04
 slug = 'let-declarations'
 description = 'Declaring top-level names and functions.'
 summary = 'Declaring top-level names and functions.'

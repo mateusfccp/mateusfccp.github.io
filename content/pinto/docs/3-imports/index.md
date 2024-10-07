@@ -1,6 +1,6 @@
 +++
 title = 'Imports'
-date = 2024-10-07T18:00:00-03:00
+date = 2024-10-05
 slug = 'imports'
 description = 'Importing external packages to a pint° program.'
 summary = 'Importing external packages to a pint° program.'

@@ -1,6 +1,6 @@
 +++
 title = 'Getting Started'
-date = 2024-10-07T17:00:00-03:00
+date = 2024-10-07
 slug = 'getting-started'
 description = 'Learn how to set up pint° on your local machine.'
 summary = 'Learn how to set up pint° on your local machine.'
