@@ -141,7 +141,7 @@ type Complex(T) = Complex(
 We now have a small community in Discord. You can join our Discord server to
 learn more and contribute by clicking button below!
 
-{{< button href="https://discord.com/invite/wJ3gGYnv" target="_blank" >}}
+{{< button href="https://discord.gg/Y9cWqCUCCG" target="_blank" >}}
 {{< icon "discord" >}}
 Join our Discord server!
 {{< /button >}}
