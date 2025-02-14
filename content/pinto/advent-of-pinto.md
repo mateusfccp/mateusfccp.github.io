@@ -1,6 +1,7 @@
 +++
 title = 'Advent of pint°'
 date = 2025-02-13T19:00:00-03:00
+lastmod = 2025-02-14T07:00:00-03:00
 tags = ['Language', 'Flutter', 'Dart', 'pint°', 'Announcement']
 +++
 
@@ -27,7 +28,53 @@ subjects.
 
 Although I couldn't release anything in the last months, I've been working,
 slowly, on two things. The first of them is improving the internal tooling used
-to develop pint°. We had some scripts to generate code that helped us generating
+to develop pint°: tests and code generation.
+
+### Tests
+
+[I felt it was time to have some kind of tests on our
+repository](https://github.com/mateusfccp/pinto/issues/9). Considering the fact
+that we don't have much time and resources, I wanted to have something that
+could be straightforward and as much useful as possible. It is probably not very
+exhaustive, but it seems to work well and detect most regressions.
+
+The test "framework" implemented consists of having pint° programs annotated
+with expected errors (or their absence).
+
+For instance, look at this excerpt of the declaration tests:
+{{< highlight alloy >}}
+let declarationBeforeImport = ()
+
+type TypeBeforeImport = TypeBeforeImport
+
+// An import should always come first
+   import @async
+// ^^^^^^^^^^^^^ misplaced_import
+
+let properLet = ()
+
+let properLet = ()
+//  ^^^^^^^^^ identifier_already_defined
+
+let improperFunction _ _ = 10
+//                     ^ expected_equality_sign_after_identifier
+{{</ highlight >}}
+
+It is basically regular pint° code with comments indicating where we expect
+static errors to happen, or, if this part of the program shouldn't have any
+static error, we leave it without any annotation.
+
+This kind of test is a little limited because it doesn't assert that the
+behavior of the program is correct, but it at least helps in developing and
+testing the lexer, parser and semantic analysis.
+
+Considering that we still don't have much in the runtime side, I decided to
+postpone behavior tests, but we are probably going to tackle this later this
+year (see roadmap below).
+
+### Code generation
+
+We had some scripts to generate code that helped us generating
 the AST and semantic tree classes. Although it worked reasonably, it required us
 to have a custom tree data structure implementation and to describe the trees in
 terms of these nodes. I can't say it didn't work, but the complexity was
