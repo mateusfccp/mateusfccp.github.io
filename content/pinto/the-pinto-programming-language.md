@@ -240,8 +240,8 @@ language's CFE.
 
 {{< mermaid >}}
 flowchart LR
-    A[Dart\nSource] --> B[[CFE]]
-    B --> C["Kernel AST\n(binary)"]
+    A[Dart source] --> B[[CFE]]
+    B --> C["Kernel AST (binary)"]
     C --> D[[Dart VM]]
 {{< /mermaid >}}
 
