@@ -228,7 +228,7 @@ final class None implements Option<Never> {
 When [ClojureDart](https://github.com/Tensegritics/ClojureDart) was announced, 3
 years ago, I asked the same thing.
 
-{{< twitter user="mateusfccp" id="1402712007393042438" >}}
+{{< x user="mateusfccp" id="1402712007393042438" >}}
 
 I never got a response from Cristophe (or anyone), but it's actually not viable
 to compile to Dart Kernel.
