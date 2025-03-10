@@ -1,5 +1,5 @@
 +++
-title = 'pint° v0.0.1 released'
+title = 'pint° 0.0.1 released'
 date = 2024-08-13T16:50:00-03:00
 lastMod = 2024-08-18T21:30:00-03:00
 tags = ['Language', 'Flutter', 'Dart', 'pint°', 'Announcement', 'Release']

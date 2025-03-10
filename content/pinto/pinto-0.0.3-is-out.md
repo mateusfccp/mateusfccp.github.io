@@ -1,20 +1,20 @@
 +++
-title = 'pint° v0.0.3 is out with a basic LSP implementation'
+title = 'pint° 0.0.3 is out with a basic LSP implementation'
 date = 2024-08-18T21:30:00-03:00
 tags = ['Language', 'Flutter', 'Dart', 'pint°', 'Announcement', 'Release']
 +++
 
-pint° v0.0.3 is a small release of the pint° language.
+pint° 0.0.3 is a small release of the pint° language.
 
 The repository can be seen [here](https://github.com/mateusfccp/pinto), and the
 `pub.dev` package [here](https://pub.dev/packages/pinto).
 
 ## Changes on this release
 
-I skipped v0.0.2 announcement, as it was a simple bug fix. You can see the
+I skipped 0.0.2 announcement, as it was a simple bug fix. You can see the
 release in the GitHub repository.
 
-For v0.0.3, the main difference is that now a basic LSP implementation is
+For 0.0.3, the main difference is that now a basic LSP implementation is
 available through the executable `pinto_server`. It is still pretty barebones,
 but it allows you to use the new
 [VSCode extension](https://marketplace.visualstudio.com/items?itemName=mateusfccp.pinto)

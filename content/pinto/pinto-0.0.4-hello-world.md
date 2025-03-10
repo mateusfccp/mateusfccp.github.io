@@ -1,10 +1,10 @@
 +++
-title = 'pint° v0.0.4: hello, world!'
+title = 'pint° 0.0.4: hello, world!'
 date = 2024-10-02T08:30:00-03:00
 tags = ['Language', 'Flutter', 'Dart', 'pint°', 'Announcement', 'Release']
 +++
 
-pint° v0.0.4 introduces a few features that allow one to finally make a "hello,
+pint° 0.0.4 introduces a few features that allow one to finally make a "hello,
 world": basic literals, let declarations, method calling and non-class imports.
 Two of them were already highlighted (although partially) in a
 [previous post]({{< ref "let-declarations-literals-and-const-heuristics" >}}),
@@ -23,7 +23,7 @@ to be part of them.
 Dart has no inherent concept of a unit or unit literal (although it's not hard
 to implement your own, and `Null` itself is a singletone type), so how unit
 compiles to Dart will depend on some heuristics, described in a
-[previous post]({{< ref "pinto-v0.0.1-released#an-overview-of-the-type-system" >}}).
+[previous post]({{< ref "pinto-0.0.1-released#an-overview-of-the-type-system" >}}).
 
 ### Boolean literals
 

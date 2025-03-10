@@ -169,7 +169,7 @@ future is exciting!
 ## Structs
 
 The second thing I've been working on is structs. I talked about them a little
-in the [v0.0.4 release post]({{< ref "pinto-v0.0.4-hello-world" >}}), and I have
+in the [0.0.4 release post]({{< ref "pinto-0.0.4-hello-world" >}}), and I have
 a branch (that now I have to rebase with the lastest `build_runner` changes)
 with some work-in-progress.
 
