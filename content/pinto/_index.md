@@ -58,7 +58,7 @@ type Complex(T) = Complex(
   {{T?} : [Future(T)]} aMonster
 )
 
-let main _ =
+let main () =
   print "Hello, world!"  
 
 {{</ highlight >}}
