@@ -132,7 +132,7 @@ let receiveSingleParameter (:param String) =
 
 let receiveMultipleParameters (:param1 String, :param2 int) =
   print "Multiple parameters"
-  {{</ highlight >}}
+{{</ highlight >}}
   
 You may ask: if all functions receive structs as its arguments, why can I call
 `print` with a string literal? Shouldn't it be `print ("foo")` instead? Well, 

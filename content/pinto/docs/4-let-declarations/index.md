@@ -1,6 +1,7 @@
 +++
 title = 'Let declarations'
 date = 2024-10-04
+lastmod = 2025-03-11
 slug = 'let-declarations'
 description = 'Declaring top-level names and functions.'
 summary = 'Declaring top-level names and functions.'
@@ -35,19 +36,22 @@ By appending a parameter to a let declaration identifier, it is converted to
 a function let declaration.
 
 {{< highlight alloy "linenos=table" >}}
-let myFunction param = "returning a string"
+let printName (:name String) = print name
 {{</ highlight >}}
 
-pint° functions have always a single parameter[^1], and current implementation
-parameters are simply ignored, so you can't use them. However, this code works
-and compiles to a parameterless function in Dart.
+A function has to have exactly one parameter, and it has to be a struct. You can
+emulate parameterless functions by using the unit.
 
-{{< highlight dart "linenos=table" >}}
-String myFunction() => 'returning a string';
+{{< highlight c >}}
+let receiveNoParameter () =
+  print "No parameters"
+
+let receiveSingleParameter (:param String) =
+  print "Single parameter"
+
+let receiveMultipleParameters (:param1 String, :param2 int) =
+  print "Multiple parameters"
 {{</ highlight >}}
-
-[^1]: Multiple parameters will be handled in the future with tuple-like
-structures.
 
 ## Identifiers
 
