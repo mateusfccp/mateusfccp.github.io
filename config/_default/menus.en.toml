@@ -16,9 +16,14 @@ pageRef = "about"
 weight = 1
 
 [[main]]
+name = "Blog"
+pageRef = "blog"
+weight = 10
+
+[[main]]
 name = "pint°"
 pageRef = "pinto"
-weight = 10
+weight = 20
 
 [[main]]
 name = "Tags"
