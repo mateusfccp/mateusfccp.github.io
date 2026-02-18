@@ -21,8 +21,8 @@ pageRef = "blog"
 weight = 10
 
 [[main]]
-name = "pint°"
-pageRef = "pinto"
+name = "Pintology"
+url = "https://labs.mateusfccp.me"
 weight = 20
 
 [[main]]
