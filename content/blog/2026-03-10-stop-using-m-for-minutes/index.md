@@ -8,8 +8,8 @@ I've noticed that people don't give a darn about ambiguity and consistency. This
 is very evident when we look at how software in general deals with time unit
 symbols. It's very well-known that in the
 [International System of Units (SI)](https://en.wikipedia.org/wiki/International_System_of_Units),
-we have non-ambiguous symbols for every unit. And the unit for “meter” is — who
-would’ve guessed — “m”.
+we have non-ambiguous symbols for every unit. And the symbol for “meter” is —
+who would’ve guessed — “m”.
 
 That's why, if I ever see “1 m”, I will immediately read it as “1 meter”. So how
 would one read this: "1 m, 10 s"? I read it as "1 meter, 10 seconds", which is
