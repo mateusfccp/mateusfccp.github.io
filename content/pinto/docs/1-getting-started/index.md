@@ -10,7 +10,7 @@ summary = 'Learn how to set up pint° on your local machine.'
 
 ### Requirements
 
-pint° is made in Dart and compile to Dart. You need the latest stable version of
+pint° is made in Dart and compiles to Dart. You need the latest stable version of
 Dart installed on your machine.
 
 {{<button href="https://dart.dev/get-dart" target="_blank">}}
@@ -33,7 +33,7 @@ With the `pinto` executable you can compile a pint° file.
 pinto your_file.pinto
 ```
 
-The compiled Dart file will me printed in you stdout. This means that, if you
+The compiled Dart file will be printed to your stdout. This means that, if you
 want to redirect it to a file, you may use `>`, like the following example.
 
 ```sh
@@ -45,7 +45,7 @@ pinto your_file.pinto > your_file.dart
 pint° provides a basic implementation of a LSP that emits static
 errors. It can be started by using the `pinto --server` command.
 
-Currently, however, the only editor with official support is VSCode. There's a
+Currently, however, the only editor with official support is VSCode. There's an
 official pint° extension for VS Code which consumes the LSP server and provides
 syntax highlighting.
 

@@ -6,12 +6,12 @@ description = 'Importing external packages to a pint° program.'
 summary = 'Importing external packages to a pint° program.'
 +++
 
-The `import` keywords allows one to import an external package to a pint°
-program. There are, currently, two types of imports in pinto°, regular imports
+The `import` keyword allows one to import an external package to a pint°
+program. There are, currently, two types of imports in pint°, regular imports
 and Dart imports[^1].
 
 
-Currently, there's no support for relative imports, neither modifiers (`as`,
+Currently, there's no support for relative imports, nor modifiers (`as`,
 `show`, `hide`, `if`).
 
 [^1]: pint° can't import other pint° files. You have to compile them to Dart
@@ -19,7 +19,7 @@ first. This will change in the future.
 
 ## Regular imports
 
-Regular imports depends on the packages available in your `package_config.json`.
+Regular imports depend on the packages available in your `package_config.json`.
 You can either import the main package[^2] file or specific files exported from the
 package by specifying (or not) what you want to import.
 

@@ -66,7 +66,7 @@ abnormality. It is really not hard to do so.
 ### Claude Code
 
 I use Claude Code a lot, and seeing this was what actually reminded me about
-the desperate state we are at.
+the desperate state we are in.
 
 {{<figure
 	src="example_claude.webp"
@@ -76,7 +76,7 @@ the desperate state we are at.
 
 ### The `ms` package
 
-There's [this](https://github.com/vercel/ms) JS package that I never heard of,
+There's [this](https://github.com/vercel/ms) JS package that I had never heard of,
 and I found it when doing the research for this post. It has more than
 300,000,000 downloads per week, so it looks like it is very popular.
 

@@ -6,7 +6,7 @@ description = 'Defining product types and sum types.'
 summary = 'Defining product types and sum types.'
 +++
 
-pint° still have no types with complex behavior, but you can introduce product
+pint° still has no types with complex behavior, but you can introduce product
 types and sum types with the `type` keyword. The types defined by the `type`
 keyword are opaque and have structural identity.
 

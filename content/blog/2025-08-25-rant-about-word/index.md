@@ -7,14 +7,13 @@ tags = ['Microsoft Office', 'Word', 'Rant']
 It's no secret that Microsoft Office is the *de facto* standard for office
 programs. It's been like this for as long as I can remember. And because of
 this, it is the preferred solution for companies and educational
-organizations. I recently started to study Software Engeneering[^1], and both
-the organization and the teachers uses Microsoft Word for assignments and
-whatsoever.
+organizations. I recently started to study Software Engineering[^1], and both the organization and the
+teachers use Microsoft Word for assignments and whatsoever.
 
 [^1]: I have no formal studies in the STEM field, although I've been a tech
 enthusiast since I was three and programming since I was 9, so I am basically
 smurfing in the technical subjects, although I am learning a lot in maths and
-the engeneering ones.
+the engineering ones.
 
 Personally, I hadn't used Word for more than a decade now. I've been basically
 using (1) org-mode if I have to take notes of something, (2) LaTeX if I have to
@@ -28,9 +27,9 @@ reckon it has many limitations. I simply can't get my head around Ribbon, and
 Libre Office has worked for me well as an alternative to Microsoft Office.
 
 It didn't take long for me to be disappointed. In one of our courses, the
-professor asked us to make an investigation report using the APA style. As the
-other components of my group are not well versed in academics and I took for
-myself the task of formatting the document. Now comes the issue: [APA headings].
+professor asked us to make an investigation report using the APA style. Since the
+other members of my group are not well-versed in academics, I took it upon
+myself to format the document. Now comes the issue: [APA headings].
 
 [APA headings]:
 https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings
@@ -50,7 +49,7 @@ in the style configuration that allows it to be "inline". Styles usually are
 separated by a paragraph marker, which means, that, by definition, different
 styles appear in different paragraphs. The solution that Word has for this case
 is called "style separator". Basically, it is a semantic marker, similar to a
-page break (in oposition to those who simply break the line until the content is
+page break (in opposition to those who simply break the line until the content is
 moved to the next page), section break, or paragraph marker (which is used by
 default in Word in place of a new line character). Whenever you use this style
 separator, it semantically indicates that the previous style ends here and a

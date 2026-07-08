@@ -7,7 +7,7 @@ description = 'Declaring top-level names and functions.'
 summary = 'Declaring top-level names and functions.'
 +++
 
-The `let` keyword allows you to declare names, both regular declartions and
+The `let` keyword allows you to declare names, both regular declarations and
 function declarations. All names declared with `let` are available in the
 top-level scope of the pint° program.
 
@@ -16,14 +16,14 @@ top-level scope of the pint° program.
 ## Regular let declarations
 
 A regular let declaration has the syntax `let a = b`, where `a` is a name and
-`b` a expression which evaluated value will be assigned to `a`. The declared
-identifiers can then be referred by other let declarations or in function calls.
+`b` an expression whose evaluated value will be assigned to `a`. The declared
+identifiers can then be referred to by other let declarations or in function calls.
 
 Here are some examples:
 
 {{< highlight alloy "linenos=table" >}}
 let name = "Mateus Pinto"
-let numberOfcatsHeHas = 1
+let numberOfCatsHeHas = 1
 {{</ highlight >}}
 
 [^3]: Local bindings will be introduced later (probably in 0.0.5) with
@@ -32,7 +32,7 @@ expressions will be our first and main way of doing so.
 
 ## Function let declarations
 
-By appending a parameter to a let declaration identifier, it is converted to
+By appending a parameter list to a let declaration identifier, it is converted to
 a function let declaration.
 
 {{< highlight alloy "linenos=table" >}}
@@ -56,15 +56,15 @@ let receiveMultipleParameters (:param1 String, :param2 int) =
 ## Identifiers
 
 As we are talking about name declarations, this may be a good place to define
-what are valid or invalid identifiers in pint°.
+what valid and invalid identifiers are in pint°.
 
 For interoperability reasons, pint° chose to follow Dart's identifier rules, so:
 
 * Identifiers can have all regular ASCII letters (no diacritics), numbers, `_`
-and `$`.;
+and `$`;
 * Identifiers can't start with a number.
 
-Thus, those are some example of valid identifiers:
+Thus, these are some examples of valid identifiers:
 
 - `myVariable`
 - `_privateVar`
